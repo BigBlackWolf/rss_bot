@@ -4,4 +4,4 @@ WORKDIR /app
 ADD requirements.txt /app/
 RUN pip install --upgrade pip pyopenssl
 RUN pip install -r requirements.txt
-COPY ./src /app
+COPY . /app
