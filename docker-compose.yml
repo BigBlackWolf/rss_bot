@@ -18,7 +18,7 @@ services:
       - db
     volumes:
       - ".:/app"
-    command: python telegram_bot.py
+    command: python src/telegram_bot.py
 
 volumes:
   db_data: {}
